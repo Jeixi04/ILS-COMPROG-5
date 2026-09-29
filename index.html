@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="jquery-4.0.0.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <img src="logo.png" alt="STI logo" class="logo-img">
+      <span class="brand-name">STI College</span>
+    </div>
+
+    <div class="navbar-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#degrees">Academic Programs</a>
+      <a href="#services">Services</a>
+      <a href="#staff">Staff</a>
+      <a href="#contact">Contact</a>
+      <a href="#faq">FAQ</a>
+      <button class="login-btn">Log in</button>
+    </div>
+  </nav>
+  
+
+  <section id="home" class="header">
+    <div class="text-box">
+      <h1>START YOUR<br><span class="highlight">JOURNEY</span><br>AT STI</h1>
+      <div class="header-divider"></div>
+      <p class="header-tagline">LEARN. CREATE. ACHIEVE</p>
+      <p class="header-desc">Discover your skills, explore your interests, and take your first step toward your future.</p>
+      <a href="#degrees" class="explore-btn">EXPLORE STI &rarr;</a>
+    </div>
+  </section>
+
+
+
+<section id="degrees" class="degrees-section">
+
+  <div class="degrees-header">
+    <h2>Choose Your Path to Success</h2>
+
+    <p>
+      Explore degree programs designed to help you build the knowledge,
+      skills, and experience you need for your future career.
+    </p>
+  </div>
+
+
+  <div class="degree-filters">
+
+    <button class="filter-btn active">
+      All Programs
+    </button>
+
+    <button class="filter-btn">
+      <i class="fa-solid fa-code"></i>
+      IT & Computing
+    </button>
+
+    <button class="filter-btn">
+      <i class="fa-solid fa-chart-line"></i>
+      Business & Accountancy
+    </button>
+
+    <button class="filter-btn">
+      <i class="fa-solid fa-hotel"></i>
+      Hospitality & Tourism
+    </button>
+
+    <button class="filter-btn">
+      <i class="fa-solid fa-palette"></i>
+      Creative Arts
+    </button>
+
+  </div>
+
+
+  <div class="degrees-grid">
+
+
+  
+    <div class="degree-card" id="card1">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/bsit.jpg"
+          alt="BS in Information Technology"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Information Technology</h3>
+
+          <p>BSIT Program</p>
+
+          <i class="fa-solid fa-laptop-code degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Master web development, mobile applications,
+          network security, and database management with
+          industry-standard frameworks.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Web & Mobile Dev</span>
+          <span>Cybersecurity</span>
+          <span>Database Admin</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link1">
+            Curriculum & Details <span class="arrow1">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="degree-card" id="card2">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/comsci.jpg"
+          alt="BS in Computer Science"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Computer Science</h3>
+
+          <p>BSCS Program</p>
+
+          <i class="fa-solid fa-brain degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Dive deep into software architecture, artificial
+          intelligence, algorithms, data science, and complex
+          computational theory.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Artificial Intelligence</span>
+          <span>Algorithms</span>
+          <span>Software Design</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link2">
+            Curriculum & Details <span class="arrow2">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="degree-card" id="card3">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/cpe.jpg"
+          alt="BS in Computer Engineering"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Computer Engineering</h3>
+
+          <p>BSCpE Program</p>
+
+          <i class="fa-solid fa-microchip degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Bridge hardware design and software development.
+          Specialize in embedded systems, Internet of Things
+          (IoT), and computer networks.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>IoT Devices</span>
+          <span>Digital Circuits</span>
+          <span>Embedded Systems</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link3">
+            Curriculum & Details <span class="arrow3">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="degree-card" id="card4">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/acountant.jpg"
+          alt="BS in Accountancy"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Accountancy</h3>
+
+          <p>BSA Program (CPA Track)</p>
+
+          <i class="fa-solid fa-calculator degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Rigorous preparation for financial accounting,
+          auditing, taxation, management advisory, and
+          Certified Public Accountant (CPA) licensure.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Financial Accounting</span>
+          <span>Auditing</span>
+          <span>Taxation</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link4">
+            Curriculum & Details <span class="arrow4">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="degree-card" id="card5">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/digital.jpg"
+          alt="BS in Business Administration"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Business Administration</h3>
+
+          <p>BSBA Program</p>
+
+          <i class="fa-solid fa-chart-line degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Develop strategic leadership, digital marketing
+          expertise, operational analysis, and corporate
+          management skills.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Digital Marketing</span>
+          <span>Leadership</span>
+          <span>Management</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link5">
+            Curriculum & Details <span class="arrow5">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="degree-card" id="card6">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/bshm.jpg"
+          alt="BS in Hospitality Management"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Hospitality Management</h3>
+
+          <p>BSHM Program</p>
+
+          <i class="fa-solid fa-hotel degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Hands-on training in hotel operations, culinary arts,
+          food & beverage services, and international cruise
+          line management.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Hotel Operations</span>
+          <span>Culinary Arts</span>
+          <span>Food & Beverage</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link6">
+            Curriculum & Details <span class="arrow6">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="degree-card" id="card7">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/bstm.jpg"
+          alt="BS in Tourism Management"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Tourism Management</h3>
+
+          <p>BSTM Program</p>
+
+          <i class="fa-solid fa-plane-departure degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Build expertise in travel management, tourism
+          operations, events, destinations, and customer
+          service.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Travel Management</span>
+          <span>Tourism</span>
+          <span>Events</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link7">
+            Curriculum & Details <span class="arrow7">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="degree-card" id="card8">
+
+      <div class="degree-image">
+
+        <img
+          src="colleges/bmma.jpg"
+          alt="Bachelor of Multimedia Arts"
+        >
+
+        <div class="degree-image-overlay">
+
+          <span class="degree-badge">
+            4-YEAR DEGREE
+          </span>
+
+          <h3>BS in Multimedia Arts</h3>
+
+          <p>BMMA Program</p>
+
+          <i class="fa-solid fa-palette degree-big-icon"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="degree-content">
+
+        <p class="degree-description">
+          Explore creative design, digital media, animation,
+          visual communication, and multimedia production.
+        </p>
+
+        <h4>Key Focus Areas:</h4>
+
+        <div class="focus-tags">
+          <span>Digital Design</span>
+          <span>Animation</span>
+          <span>Multimedia</span>
+        </div>
+
+        <div class="degree-bottom">
+
+          <a href="#" class="link8">
+            Curriculum & Details <span class="arrow8">→</span>
+          </a>
+
+          <button class="apply-btn">
+            Apply
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+  
+
+  <section id="services" class="services-section">
+    <div class="services-header">
+      <h2>What We Offer</h2>
+      <p>
+        Explore the different services available to help students
+        learn, connect, and manage their school activities.
+      </p>
+    </div>
+
+    <div class="services-grid">
+   
+      <div class="service-card" id="service1">
+        <div class="service-image">
+          <img src="colleges/info.jpg" alt="Student Information">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+          <h3>Student Information</h3>
+          <p>Access important student information, academic details, and school records in one convenient place.</p>
+          <a href="#" class="more1">Learn More <span class="arrow9">→</span></a>
+        </div>
+      </div>
+
+      
+      <div class="service-card" id="service2">
+        <div class="service-image">
+          <img src="colleges/acd.jpg" alt="Academic Services">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <h3>Academic Services</h3>
+          <p>Get access to learning resources, academic information, schedules, and other student learning services.</p>
+          <a href="#" class="more2">Learn More <span class="arrow10">→</span></a>
+        </div>
+      </div>
+
+ 
+      <div class="service-card" id="service3">
+        <div class="service-image">
+          <img src="colleges/records.jpg" alt="Student Records">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-file-lines"></i>
+          </div>
+          <h3>Student Records</h3>
+          <p>View and manage important student records such as grades, attendance, and other academic information.</p>
+          <a href="#" class="more3">Learn More <span class="arrow11">→</span></a>
+        </div>
+      </div>
+
+    
+      <div class="service-card" id="service4">
+        <div class="service-image">
+          <img src="colleges/announ.jpg" alt="Announcements">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-bullhorn"></i>
+          </div>
+          <h3>Announcements</h3>
+          <p>Stay updated with important school announcements, events, activities, and student reminders.</p>
+          <a href="#" class="more4">Learn More <span class="arrow12">→</span></a>
+        </div>
+      </div>
+
+     
+      <div class="service-card" id="service5">
+        <div class="service-image">
+          <img src="colleges/support.jpg" alt="Student Support">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3>Student Support</h3>
+          <p>Find helpful information and support services designed to assist students with their school needs.</p>
+          <a href="#" class="more5">Learn More <span class="arrow13">→</span></a>
+        </div>
+      </div>
+
+   
+      <div class="service-card" id="service6">
+        <div class="service-image">
+          <img src="colleges/activitiesjpg.jpg" alt="School Activities">
+        </div>
+        <div class="service-content">
+          <div class="service-icon">
+            <i class="fa-solid fa-calendar-days"></i>
+          </div>
+          <h3>School Activities</h3>
+          <p>Discover upcoming school activities, events, programs, and opportunities for students to participate.</p>
+          <a href="#" class="more6">Learn More <span class="arrow14">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+<section id="staff" class="staff-section">
+
+  <div class="staff-header">
+    <h2>Meet Our Team</h2>
+    <p>
+      Meet the dedicated staff members who help support, guide,
+      and provide services to the students of STI College.
+    </p>
+  </div>
+
+  <div class="staff-grid">
+
+  
+    <div class="staff-card">
+      <img src="staff/dale.jpg" alt="Staff Member">
+      <h3>Dale Bernabe</h3>
+      <span>School Administrator</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/yums.jpg" alt="Staff Member">
+      <h3>Yumi Peñaredondo</h3>
+      <span>Academic Coordinator</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/aki.jpg" alt="Staff Member">
+      <h3>Aki Flores</h3>
+      <span>Registrar</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/ryu.jpg" alt="Staff Member">
+      <h3>Ryumel Malipot</h3>
+      <span>Student Affairs Officer</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/mar.png" alt="Staff Member">
+      <h3>Junell Relente</h3>
+      <span>Program Head</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/mags.jpg" alt="Staff Member">
+      <h3>Prince Magat</h3>
+      <span>Guidance Counselor</span>
+    </div>
+
+    
+    <div class="staff-card">
+      <img src="staff/jaivie.jpg" alt="Staff Member">
+      <h3>Jaivie Seballe</h3>
+      <span>Admissions Officer</span>
+    </div>
+
+   
+    <div class="staff-card">
+      <img src="staff/kian.jpg" alt="Staff Member">
+      <h3>Kian Dalwampo</h3>
+      <span>Finance Officer</span>
+    </div>
+
+  </div>
+
+</section>
+
+  <section id="contact" class="contact-section">>
+
+  <div class="contact-overlay"></div>
+
+  <div class="contact-container">
+
+    
+    <div class="contact-header">
+      <h2>Contact Us</h2>
+
+      <p>
+        Have questions about admissions, programs, or student services?
+        We're here to help you with the information you need.
+      </p>
+    </div>
+
+
+    <div class="contact-info">
+
+      <div class="contact-item">
+
+        <div class="contact-icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div class="contact-text">
+          <h3>Address</h3>
+          <p>
+            STI College
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-item">
+
+        <div class="contact-icon">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div class="contact-text">
+          <h3>Phone</h3>
+          <p>+63 49 534 2719</p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-item">
+
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="contact-text">
+          <h3>Email</h3>
+          <p>admissions@sti.edu</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="contact-form">
+
+      <h3>Send Message</h3>
+
+      <form>
+
+        <div class="input-box">
+          <input type="text" required>
+          <span>Full Name</span>
+        </div>
+
+
+        <div class="input-box">
+          <input type="email" required>
+          <span>Email</span>
+        </div>
+
+
+        <div class="input-box">
+          <textarea required></textarea>
+          <span>Type your Message...</span>
+        </div>
+
+
+        <button type="submit" class="send-btn">
+          Send
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+  
+<section id="faq" class="faq-section">
+
+  <div class="faq-container">
+
+    <div class="faq-image">
+      <img src="images/faq.jpg" alt="STI College Students">
+    </div>
+
+
+    <div class="faq-content">
+
+      <p class="section-label">FREQUENTLY ASKED QUESTIONS</p>
+
+      <h2>Have Questions?</h2>
+
+      <p class="faq-intro">
+        Find answers to some of the most common questions about
+        STI College, our programs, and student services.
+      </p>
+
+      <div class="faq-list">
+
+        <details>
+          <summary>
+            What programs does STI College offer?
+            <i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            STI College offers programs in IT and computing, business
+            and accountancy, hospitality and tourism, and creative arts.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            How can I apply to STI College?
+            <i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Students can apply by completing the admission requirements
+            and following the enrollment process provided by the school.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            What student services are available?
+            <i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Students can access academic services, student records,
+            announcements, student support, and school activities.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Can I learn more about a specific degree program?
+            <i class="fa-solid fa-plus"></i>
+          </summary>
+          <p>
+            Yes. You can explore the College Degrees section to view
+            the available programs and their key focus areas.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <div class="social-links">
+    <a href="https://youtube.com/@sti_college?si=NvfzMyeQ3KOZ-yWd" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@sti.edu?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" aria-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+    <a href="https://www.facebook.com/sticollege" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="https://twitter.com/sti_edu" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
